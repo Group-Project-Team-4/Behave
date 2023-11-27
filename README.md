@@ -29,7 +29,7 @@
 
 ## 4. Behave Tutorial
 
-1. After successfully installing behave, create a directory called "features". In that directory create a file called "tutorial.feature" containing: 
+1. After successfully installing behave, create a directory called "features". In that directory create a file called "tutorial.feature" using Gherkin syntax containing:
 
     **Feature**: Login Functionality  
         **Scenario**: Successful Login  
