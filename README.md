@@ -31,10 +31,10 @@
 
 1. After successfully installing behave, create a directory called "features". In that directory create a file called "tutorial.feature" containing: 
 
-    `**Feature**: Login Functionality
-        **Scenario**: Successful Login
-        **Given** the user is on the login page
-        **When** they enter valid credentials
-        **Then** they should be redirected to the home page`
-        
+    **Feature**: Login Functionality 
+        **Scenario**: Successful Login 
+        **Given** the user is on the login page 
+        **When** they enter valid credentials 
+        **Then** they should be redirected to the home page 
+
 
