@@ -5,3 +5,4 @@ Feature: Login functionality on the clothing store app
       When User clicks login
       When User enters login credentials
       When User logs in
+      Then the test should pass
