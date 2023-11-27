@@ -1,18 +1,9 @@
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from behave import *
 import time
 
 USERNAME = 'nate123'
 PASSWORD = '12345'
-
-
-@given('User is on the shop page')
-def step_impl(context):
-    context.driver = webdriver.Chrome()
-    context.driver.get('http://localhost:5000/')
-    assert context.driver.current_url == 'http://localhost:5000/'
-    context.driver.save_screenshot("./login/main_page.png")
 
 
 @when('User clicks login')
@@ -44,4 +35,3 @@ def step_impl(context):
     time.sleep(0.25)
     assert context.driver.current_url == 'http://localhost:5000/'
     context.driver.save_screenshot("./login/login_success.png")
-
