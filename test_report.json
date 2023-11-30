@@ -1,9 +1,65 @@
-[
-{"keyword": "Feature", "name": "Login functionality on the clothing store app", "tags": [], "location": "features/login.feature:1", "status": "passed", "elements": [{"type": "scenario", "keyword": "Scenario", "name": "User can login", "tags": [], "location": "features/login.feature:3", "steps": [{"keyword": "Given", "step_type": "given", "name": "User is on the shop page", "location": "features/login.feature:4", "match": {"location": "features/steps/common.py:4", "arguments": []}, "result": {"status": "passed", "duration": 1.7159316539764404}}, {"keyword": "When", "step_type": "when", "name": "User clicks login", "location": "features/login.feature:5", "match": {"location": "features/steps/login.py:9", "arguments": []}, "result": {"status": "passed", "duration": 0.8087813854217529}}, {"keyword": "When", "step_type": "when", "name": "User enters login credentials", "location": "features/login.feature:6", "match": {"location": "features/steps/login.py:18", "arguments": []}, "result": {"status": "passed", "duration": 0.6203169822692871}}, {"keyword": "When", "step_type": "when", "name": "User logs in", "location": "features/login.feature:7", "match": {"location": "features/steps/login.py:31", "arguments": []}, "result": {"status": "passed", "duration": 0.9653589725494385}}, {"keyword": "Then", "step_type": "then", "name": "the test should pass", "location": "features/login.feature:8", "match": {"location": "features/steps/common.py:11", "arguments": []}, "result": {"status": "passed", "duration": 2.05497670173645}}], "status": "passed"}]},
+{
+    "value":  [
+                  {
+                      "keyword":  "Feature",
+                      "name":  "Login functionality on the clothing store app",
+                      "tags":  [
 
-{"keyword": "Feature", "name": "Logout functionality on the clothing store app", "tags": [], "location": "features/logout.feature:1", "status": "passed", "elements": [{"type": "scenario", "keyword": "Scenario", "name": "Logged in user can logout", "tags": [], "location": "features/logout.feature:3", "steps": [{"keyword": "Given", "step_type": "given", "name": "User is on the shop page", "location": "features/logout.feature:4", "match": {"location": "features/steps/common.py:4", "arguments": []}, "result": {"status": "passed", "duration": 1.7033212184906006}}, {"keyword": "When", "step_type": "when", "name": "User clicks login", "location": "features/logout.feature:5", "match": {"location": "features/steps/login.py:9", "arguments": []}, "result": {"status": "passed", "duration": 0.805368185043335}}, {"keyword": "When", "step_type": "when", "name": "User enters login credentials", "location": "features/logout.feature:6", "match": {"location": "features/steps/login.py:18", "arguments": []}, "result": {"status": "passed", "duration": 0.6211650371551514}}, {"keyword": "When", "step_type": "when", "name": "User logs in", "location": "features/logout.feature:7", "match": {"location": "features/steps/login.py:31", "arguments": []}, "result": {"status": "passed", "duration": 0.9526827335357666}}, {"keyword": "When", "step_type": "when", "name": "User clicks logout", "location": "features/logout.feature:8", "match": {"location": "features/steps/logout.py:5", "arguments": []}, "result": {"status": "passed", "duration": 0.9585731029510498}}, {"keyword": "Then", "step_type": "then", "name": "the test should pass", "location": "features/logout.feature:9", "match": {"location": "features/steps/common.py:11", "arguments": []}, "result": {"status": "passed", "duration": 2.044947624206543}}], "status": "passed"}]},
+                               ],
+                      "location":  "features/login.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=User can login; tags=System.Object[]; location=features/login.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  },
+                  {
+                      "keyword":  "Feature",
+                      "name":  "Logout functionality on the clothing store app",
+                      "tags":  [
 
-{"keyword": "Feature", "name": "User purchases an item", "tags": [], "location": "features/purchase_item.feature:1", "status": "passed", "elements": [{"type": "scenario", "keyword": "Scenario", "name": "Purchase an item", "tags": [], "location": "features/purchase_item.feature:3", "steps": [{"keyword": "Given", "step_type": "given", "name": "User is on the shop page", "location": "features/purchase_item.feature:4", "match": {"location": "features/steps/common.py:4", "arguments": []}, "result": {"status": "passed", "duration": 1.7197327613830566}}, {"keyword": "When", "step_type": "when", "name": "User clicks login", "location": "features/purchase_item.feature:5", "match": {"location": "features/steps/login.py:9", "arguments": []}, "result": {"status": "passed", "duration": 0.8165013790130615}}, {"keyword": "When", "step_type": "when", "name": "User enters login credentials", "location": "features/purchase_item.feature:6", "match": {"location": "features/steps/login.py:18", "arguments": []}, "result": {"status": "passed", "duration": 0.6196959018707275}}, {"keyword": "When", "step_type": "when", "name": "User logs in", "location": "features/purchase_item.feature:7", "match": {"location": "features/steps/login.py:31", "arguments": []}, "result": {"status": "passed", "duration": 0.9595785140991211}}, {"keyword": "When", "step_type": "when", "name": "User clicks shop now", "location": "features/purchase_item.feature:8", "match": {"location": "features/steps/purchase_item_no_login.py:9", "arguments": []}, "result": {"status": "passed", "duration": 1.0005526542663574}}, {"keyword": "When", "step_type": "when", "name": "User clicks on watch", "location": "features/purchase_item.feature:9", "match": {"location": "features/steps/purchase_item_no_login.py:17", "arguments": []}, "result": {"status": "passed", "duration": 0.9704713821411133}}, {"keyword": "When", "step_type": "when", "name": "User clicks add to cart", "location": "features/purchase_item.feature:10", "match": {"location": "features/steps/purchase_item_no_login.py:26", "arguments": []}, "result": {"status": "passed", "duration": 0.9748353958129883}}, {"keyword": "When", "step_type": "when", "name": "User clicks checkout", "location": "features/purchase_item.feature:11", "match": {"location": "features/steps/purchase_item.py:5", "arguments": []}, "result": {"status": "passed", "duration": 0.9027509689331055}}, {"keyword": "When", "step_type": "when", "name": "User enters checkout info", "location": "features/purchase_item.feature:12", "match": {"location": "features/steps/purchase_item.py:12", "arguments": []}, "result": {"status": "passed", "duration": 1.4513919353485107}}, {"keyword": "When", "step_type": "when", "name": "User clicks pay", "location": "features/purchase_item.feature:13", "match": {"location": "features/steps/purchase_item.py:39", "arguments": []}, "result": {"status": "passed", "duration": 0.9798853397369385}}, {"keyword": "Then", "step_type": "then", "name": "the test should pass", "location": "features/purchase_item.feature:14", "match": {"location": "features/steps/common.py:11", "arguments": []}, "result": {"status": "passed", "duration": 2.052105188369751}}], "status": "passed"}]},
+                               ],
+                      "location":  "features/logout.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=Logged in user can logout; tags=System.Object[]; location=features/logout.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  },
+                  {
+                      "keyword":  "Feature",
+                      "name":  "User purchases an item",
+                      "tags":  [
 
-{"keyword": "Feature", "name": "Try purchasing an item without being logged in", "tags": [], "location": "features/purchase_item_no_login.feature:1", "status": "passed", "elements": [{"type": "scenario", "keyword": "Scenario", "name": "Purchase an item not logged in", "tags": [], "location": "features/purchase_item_no_login.feature:3", "steps": [{"keyword": "Given", "step_type": "given", "name": "User is on the shop page", "location": "features/purchase_item_no_login.feature:4", "match": {"location": "features/steps/common.py:4", "arguments": []}, "result": {"status": "passed", "duration": 1.7326066493988037}}, {"keyword": "When", "step_type": "when", "name": "User clicks shop now", "location": "features/purchase_item_no_login.feature:5", "match": {"location": "features/steps/purchase_item_no_login.py:9", "arguments": []}, "result": {"status": "passed", "duration": 1.2152321338653564}}, {"keyword": "When", "step_type": "when", "name": "User clicks on watch", "location": "features/purchase_item_no_login.feature:6", "match": {"location": "features/steps/purchase_item_no_login.py:17", "arguments": []}, "result": {"status": "passed", "duration": 0.9748821258544922}}, {"keyword": "When", "step_type": "when", "name": "User clicks add to cart", "location": "features/purchase_item_no_login.feature:7", "match": {"location": "features/steps/purchase_item_no_login.py:26", "arguments": []}, "result": {"status": "passed", "duration": 0.6574141979217529}}, {"keyword": "Then", "step_type": "then", "name": "the test should pass", "location": "features/purchase_item_no_login.feature:8", "match": {"location": "features/steps/common.py:11", "arguments": []}, "result": {"status": "passed", "duration": 2.0442848205566406}}], "status": "passed"}]}
-]
+                               ],
+                      "location":  "features/purchase_item.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=Purchase an item; tags=System.Object[]; location=features/purchase_item.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  },
+                  {
+                      "keyword":  "Feature",
+                      "name":  "Try purchasing an item without being logged in",
+                      "tags":  [
+
+                               ],
+                      "location":  "features/purchase_item_no_login.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=Purchase an item not logged in; tags=System.Object[]; location=features/purchase_item_no_login.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  },
+                  {
+                      "keyword":  "Feature",
+                      "name":  "Removing item from cart functionality",
+                      "tags":  [
+
+                               ],
+                      "location":  "features/remove_item_cart.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=User removes item from cart; tags=System.Object[]; location=features/remove_item_cart.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  }
+              ],
+    "Count":  5
+}
