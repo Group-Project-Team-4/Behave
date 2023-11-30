@@ -49,11 +49,11 @@
 
 
 ## 5. Running Tests with Virtual Enviroment  
-   Once virtual environment is set up, you can run Behave tests and have results generated to a json file with the following command:
+   Once virtual environment is set up, you can run Behave tests and have results generated to a json file with the following command:  
    `behave --format json -o test_report.json`
 
-   If you're using the Windows terminal and want to format the generated JSON file for better readability, you can use the following command:
-   `behave --format json -o test_report.json ; (Get-Content test_report.json | ConvertFrom-Json | ConvertTo-Json) | Set-Content -Path test_report.json`
+   If you're using the Windows terminal and want to format the generated JSON file for better readability, you can use the following command:  
+   `behave --format json -o test_report.json ; (Get-Content test_report.json | ConvertFrom-Json | ConvertTo-Json) | Set-Content -Path test_report.json`  
    This command not only runs the Behave tests and generates the JSON report but also formats the JSON file to be indented, making it easier to read.
 
       
