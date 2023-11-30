@@ -1,0 +1,65 @@
+{
+    "value":  [
+                  {
+                      "keyword":  "Feature",
+                      "name":  "Login functionality on the clothing store app",
+                      "tags":  [
+
+                               ],
+                      "location":  "features/login.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=User can login; tags=System.Object[]; location=features/login.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  },
+                  {
+                      "keyword":  "Feature",
+                      "name":  "Logout functionality on the clothing store app",
+                      "tags":  [
+
+                               ],
+                      "location":  "features/logout.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=Logged in user can logout; tags=System.Object[]; location=features/logout.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  },
+                  {
+                      "keyword":  "Feature",
+                      "name":  "User purchases an item",
+                      "tags":  [
+
+                               ],
+                      "location":  "features/purchase_item.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=Purchase an item; tags=System.Object[]; location=features/purchase_item.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  },
+                  {
+                      "keyword":  "Feature",
+                      "name":  "Try purchasing an item without being logged in",
+                      "tags":  [
+
+                               ],
+                      "location":  "features/purchase_item_no_login.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=Purchase an item not logged in; tags=System.Object[]; location=features/purchase_item_no_login.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  },
+                  {
+                      "keyword":  "Feature",
+                      "name":  "Removing item from cart functionality",
+                      "tags":  [
+
+                               ],
+                      "location":  "features/remove_item_cart.feature:1",
+                      "status":  "passed",
+                      "elements":  [
+                                       "@{type=scenario; keyword=Scenario; name=User removes item from cart; tags=System.Object[]; location=features/remove_item_cart.feature:3; steps=System.Object[]; status=passed}"
+                                   ]
+                  }
+              ],
+    "Count":  5
+}

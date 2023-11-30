@@ -1,0 +1,96 @@
+# Ignore compiled files
+*.o
+*.out
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled Python bytecode
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore compiled C++ files
+*.exe
+*.out
+
+# Ignore compiled Java files
+*.class
+
+# Ignore compiled Ruby files
+*.gem
+*.rbc
+
+# Ignore compiled PHP files
+*.phpc
+
+# Ignore compiled Haskell files
+*.hi
+*.o
+
+# Ignore compiled Rust files
+/target/
+
+# Ignore compiled Swift files
+.build/
+*.swiftpm/
+
+# Ignore compiled C# files
+bin/
+obj/
+*.dll
+*.exe
+
+# Ignore compiled Go files
+*.bin
+*.exe
+*.dll
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore coverage reports
+.coverage
+
+# Ignore miscellaneous temporary files
+*~
+
+# Ignore sensitive or environment-specific information
+.env
+
+# Ignore user-specific settings
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+*.idea/
+*.DS_Store
+Thumbs.db
