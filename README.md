@@ -35,16 +35,16 @@
 ## 4. Prerequisites
    Before running the Behave tests, make sure to set up a virtual environment and install the required dependencies. You can use the following commands:
 
-   Create a virtual environment  
+   1. Create a virtual environment  
    `python -m venv venv`
 
-   Activate the virtual environment (Windows)  
+   2. Activate the virtual environment (Windows)  
    `venv\Scripts\activate`
 
-   Activate the virtual environment (Unix or MacOS)  
+   3. Activate the virtual environment (Unix or MacOS)  
    `source venv/bin/activate`
 
-   Install dependencies  
+   4. Install dependencies  
    `pip install -r requirements.txt`
 
 
