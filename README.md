@@ -35,16 +35,16 @@
 ## 4. Prerequisites
    Before running the Behave tests, make sure to set up a virtual environment and install the required dependencies. You can use the following commands:
 
-   # Create a virtual environment
+   Create a virtual environment
    `python -m venv venv`
 
-   # Activate the virtual environment (Windows)
+   Activate the virtual environment (Windows)
    `venv\Scripts\activate`
 
-   # Activate the virtual environment (Unix or MacOS)
+   Activate the virtual environment (Unix or MacOS)
    `source venv/bin/activate`
 
-   # Install dependencies
+   Install dependencies
    `pip install -r requirements.txt`
 
 
@@ -59,7 +59,7 @@
       
 
 ## 5. Behave Tutorial
-# 1. After successfully installing behave, create a directory called "features". In that directory create a file called "tutorial.feature" using Gherkin syntax containing:
+   1. After successfully installing behave, create a directory called "features". In that directory create a file called "tutorial.feature" using Gherkin syntax containing:
 
     **Feature**: Login Functionality  
         **Scenario**: Successful Login  
