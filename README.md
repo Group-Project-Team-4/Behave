@@ -60,7 +60,7 @@
 
 ## 5. Behave Tutorial
 
-   1. After successfully installing behave, create a directory called "features". In that directory create a file called "tutorial.feature" using Gherkin syntax containing:  
+   1. After successfully installing behave, there is a directory called "features". In that directory there is a file called "login.feature" containing:
 
    **Feature**: Login functionality on the clothing store app  
 
@@ -70,5 +70,59 @@
       **When**: User enters login credentials  
       **When**: User logs in  
       **Then**: the test should pass  
+
+   2. There is a directory called "features.steps" which contains login.py
+
+   ```
+   from behave import *
+
+      @when('User clicks login')
+   def step_impl(context):
+      login_link = context.driver.find_element(By.ID, "base_login_anchor")
+      login_link.click()
+      time.sleep(0.25)
+      assert context.driver.current_url == 'http://localhost:5000/auth/login'
+      context.driver.save_screenshot("./login/login_page.png")
+
+
+   @when('User enters login credentials')
+   def step_impl(context):
+      username_input = context.driver.find_element(By.ID, "login_username_textinput")
+      username_input.send_keys(USERNAME)
+      time.sleep(0.25)
+      assert username_input.get_attribute('value') == 'nate123'
+      password_input = context.driver.find_element(By.ID, "login_password_textinput")
+      password_input.send_keys(PASSWORD)
+      time.sleep(0.25)
+      assert password_input.get_attribute('value') == '12345'
+      context.driver.save_screenshot("./login/login_credentials.png")
+
+
+   @when('User logs in')
+   def step_impl(context):
+      login_button = context.driver.find_element(By.ID, "login_submit_button")
+      login_button.click()
+      time.sleep(0.25)
+      assert context.driver.current_url == 'http://localhost:5000/'
+      context.driver.save_screenshot("./login/login_success.png")
+   ```
+
+   3. Run behave  
+   ```
+   % behave
+   Feature: showing off behave 
+
+   **Scenario**: User can login  # features/login.feature:1
+      **Given**: User is on the shop page # features/login.feature:1
+      **When**: User clicks login   # features/login.feature:1
+      **When**: User enters login credentials  # features/login.feature:1
+      **When**: User logs in  # features/login.feature:1
+      **Then**: the test should pass  # features/login.feature:1
+   ```
+
+
+
+
+
 
 
