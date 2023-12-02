@@ -112,12 +112,12 @@
    % behave
    Feature: showing off behave 
 
-   **Scenario**: User can login  # features/login.feature:1
-      **Given**: User is on the shop page # features/login.feature:1
-      **When**: User clicks login   # features/login.feature:1
-      **When**: User enters login credentials  # features/login.feature:1
-      **When**: User logs in  # features/login.feature:1
-      **Then**: the test should pass  # features/login.feature:1
+   Scenario: User can login  # features/login.feature:1
+      Given: User is on the shop page # features/login.feature:1
+      When: User clicks login   # features/login.feature:1
+      When: User enters login credentials  # features/login.feature:1
+      When: User logs in  # features/login.feature:1
+      Then: the test should pass  # features/login.feature:1
    ```
 
 
