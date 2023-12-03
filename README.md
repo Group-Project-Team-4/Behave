@@ -47,8 +47,22 @@
    4. Install dependencies  
    `pip install -r requirements.txt`
 
+   5. Web Driver  
+   [Chrome](https://googlechromelabs.github.io/chrome-for-testing/)  
+   [Firefox](https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/firefox.html)
+
+   6. This is the web app setup for this set of tests:  
+   [Clothing Store](https://github.com/Group-Project-Team-4/Web-App)
+
+   7. Once you have the webserver running and open, create a user:  
+   User: `nate123`
+   Password: `12345`
+
 
 ## 5. Running Tests with Virtual Enviroment  
+   To run tests and view results in terminal you can run this command:  
+   `behave`
+   
    Once virtual environment is set up, you can run Behave tests and have results generated to a json file with the following command:  
    `behave --format json -o test_report.json`
 
@@ -62,14 +76,14 @@
 
    1. After successfully installing behave, there is a directory called "features". In that directory there is a file called "login.feature" containing:
 
-   **Feature**: Login functionality on the clothing store app  
-
-   **Scenario**: User can login  
-      **Given**: User is on the shop page  
-      **When**: User clicks login  
-      **When**: User enters login credentials  
-      **When**: User logs in  
-      **Then**: the test should pass  
+      **Feature**: Login functionality on the clothing store app  
+   
+      **Scenario**: User can login  
+         **Given**: User is on the shop page  
+         **When**: User clicks login  
+         **When**: User enters login credentials  
+         **When**: User logs in  
+         **Then**: the test should pass  
 
    2. There is a directory called "features.steps" which contains login.py
 
