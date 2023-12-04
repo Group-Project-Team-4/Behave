@@ -49,27 +49,43 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 4. Running Tests
-Once the virtual environment is set up and activated, and the dependencies are installed, you can run Behave tests  and have results generated to a json file with the following command:  
-`behave --format json -o test_report.json`
+4. Install the Web Driver for your browser
 
-If you're using the Windows terminal and want to format the generated JSON file for better readability, you can use the following command:  
-`behave --format json -o test_report.json ; (Get-Content test_report.json | ConvertFrom-Json | ConvertTo-Json) | Set-Content -Path test_report.json`  
-This command not only runs the Behave tests and generates the JSON report but also formats the JSON file to be indented, making it easier to read.
+    [Chrome](https://googlechromelabs.github.io/chrome-for-testing/)  
+    [Firefox](https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/firefox.html)
 
+6. This is the web app setup for this set of tests:  
+
+    [Clothing Store](https://github.com/Group-Project-Team-4/Web-App)
+
+7. Once you have the webserver running and open, create a user:  
+
+User: `nate123`
+Password: `12345`
+
+## 4. Running Tests with Virtual Enviroment  
+   To run tests and view results in terminal you can run this command:  
+   `behave`
    
+   Once virtual environment is set up, you can run Behave tests and have results generated to a json file with the following command:  
+   `behave --format json -o test_report.json`
+
+   If you're using the Windows terminal and want to format the generated JSON file for better readability, you can use the following command:  
+   `behave --format json -o test_report.json ; (Get-Content test_report.json | ConvertFrom-Json | ConvertTo-Json) | Set-Content -Path test_report.json`  
+   This command not only runs the Behave tests and generates the JSON report but also formats the JSON file to be indented, making it easier to read.
+
 ## 5. Behave Tutorial
 
 1. After successfully installing behave, there is a directory called "features". In that directory there is a file called "login.feature" containing:
 
-**Feature**: Login functionality on the clothing store app  
-
-**Scenario**: User can login  
-   **Given**: User is on the shop page  
-   **When**: User clicks login  
-   **When**: User enters login credentials  
-   **When**: User logs in  
-   **Then**: the test should pass  
+      **Feature**: Login functionality on the clothing store app  
+   
+      **Scenario**: User can login  
+         **Given**: User is on the shop page  
+         **When**: User clicks login  
+         **When**: User enters login credentials  
+         **When**: User logs in  
+         **Then**: the test should pass  
 
 2. There is a directory called "features.steps" which contains login.py
 
